@@ -29,7 +29,7 @@ Image::Image(int width, int height, int channels)
 	BPP(channels)
 {
 	Size = width * height * channels;
-	Data = new unsigned char[Size];
+	Data = new uint8_t[Size];
 }
 
 Image::Image(const Image& image)
